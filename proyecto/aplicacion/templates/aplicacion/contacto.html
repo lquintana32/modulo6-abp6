@@ -1,0 +1,9 @@
+{% extends 'aplicacion/layout.html' %}
+{% block content %}
+    <form action="">
+        {% csrf_token %}
+        <input name='email' type="email" placeholder='Email'/>
+        <textarea name="reclamo" id="" cols="30" rows="10"></textarea>
+        <button>Enviar</button>
+    </form>
+{% endblock  %}

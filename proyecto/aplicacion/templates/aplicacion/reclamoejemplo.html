@@ -1,0 +1,9 @@
+{% extends 'aplicacion/layout.html' %}
+{% block content %}
+    <form action="/reclamov2" method='POST'>
+        {% csrf_token %}
+        {{form.as_p}}
+        <button>Enviar</button>
+    </form>
+    {{respuesta}}
+{% endblock  %}

@@ -1,0 +1,9 @@
+{% extends 'aplicacion/layout.html' %}
+{% block content %}
+    {% for cli in data %}
+        
+        <h1>{{cli.nombre}} {{cli.apellido}}</h1>
+        
+    {% endfor %}
+    
+{% endblock %}
