@@ -18,7 +18,7 @@ Ver Cliente -- http://127.0.0.1:8000/clientes/
 Muestra los clientes anteriores en pantalla, tambien a modo de prueba
 
 
-ABP5:
+ABP6:
 
 Para la revision de la actividad se sugiere crear un User a traves de la url /crearusuario (disponible en el Navbar) el cual permite elegir entre dos grupos ya creados en el apartado de administracion, existen "Grupo Numero 1" y "Grupo Numero 2". Se sugiere luego revisar en el panel de administracion los resultados
 
